@@ -1,5 +1,5 @@
 # ATLAS-RC v1.0.0
-
+[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22832817.svg) (https://doi.org/10.5281/zenodo.22832817)
 **Optimising Reference-Class Selection for Capital Cost Estimation: A Machine-Learning Experiment Using Public Data**
 
 ATLAS-RC is a bounded empirical experiment asking whether a machine-selected reference class, based on project similarity, improves out-of-sample estimation of reported capital intensity relative to a broad outside-view baseline.
