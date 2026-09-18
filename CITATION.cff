@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or research artefact, please cite it using the metadata below."
+title: "ATLAS-RC: Optimising Reference-Class Selection for Capital Cost Estimation"
+type: software
+authors:
+  - family-names: "Ravishankar"
+    given-names: "Sai"
+version: "1.0.0"
+date-released: "2026-09-18"
+license: MIT
+abstract: "A bounded empirical experiment testing whether k-nearest-neighbour reference-class selection improves out-of-sample estimation of reported data-centre investment intensity relative to a global-median outside-view baseline."
+keywords:
+  - reference class forecasting
+  - capital cost estimation
+  - machine learning
+  - k-nearest neighbours
+  - data centres
+  - outside view
