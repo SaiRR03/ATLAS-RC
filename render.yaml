@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: atlas-rc2-data-centre-benchmark
+    runtime: python
+    plan: free
+    rootDir: rc2_public
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port $PORT
+    autoDeployTrigger: commit

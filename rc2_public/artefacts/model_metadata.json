@@ -1,0 +1,25 @@
+{
+  "version": "ATLAS-RC2-public-demonstrator-v0.2.0",
+  "target": "publicly reported investment in USD",
+  "training_rows": 346,
+  "nominal_coverage": 0.8,
+  "validation": "five-fold grouped out-of-fold validation by US state",
+  "models": {
+    "capacity_only": {"selected_alpha": 0.01, "grouped_oof_log_mae": 0.7396638872158413, "grouped_oof_coverage": 0.8092485549132948, "qhat_absolute_log_residual": 1.2331944108226693, "n": 346},
+    "expanded": {"selected_alpha": 10.0, "grouped_oof_log_mae": 0.751927894221672, "grouped_oof_coverage": 0.8063583815028902, "qhat_absolute_log_residual": 1.2295365060379169, "n": 346}
+  },
+  "domain": {
+    "capacity_min": 5.0,
+    "capacity_max": 6650.000000000035,
+    "area_min": 15800.0,
+    "area_max": 20000000.0,
+    "year_min": 2018,
+    "year_max": 2026,
+    "states": ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Florida","Georgia","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","South Carolina","South Dakota","Tennessee","Texas","Utah","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]
+  },
+  "limitations": [
+    "The target is reported/announced investment, not verified outturn cost.",
+    "Public project announcements can contain inconsistent scopes.",
+    "Intervals provide marginal rather than case-specific coverage guarantees."
+  ]
+}
